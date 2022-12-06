@@ -1,4 +1,3 @@
-import sumar from "./sumador";
 
 const publicacion = document.querySelector("#publicacion");
 const form = document.querySelector("#twitter-form");
