@@ -11,4 +11,5 @@ describe("Twitter", () => {
     cy.get("#publicar-button").click();
     cy.get("#advertencia-div").should("contain", "No se puede ingresar un post sin Texto");
   });
+
 });
