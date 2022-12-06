@@ -1,0 +1,2 @@
+const e=document.querySelector("#publicacion"),r=document.querySelector("#twitter-form"),t=document.querySelector("#resultado-div"),n=document.querySelector("#advertencia-div");var o="";r.addEventListener("submit",(r=>{r.preventDefault();var u=e.value;" "==u?n.innerHTML="<p>No se puede ingresar un post sin Texto</p>":o=o+u+"<br>",t.innerHTML="<p>"+o+"</p>"}));
+//# sourceMappingURL=index.71b5e51e.js.map
